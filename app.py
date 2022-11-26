@@ -22,7 +22,7 @@ app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'Mis2013#'
 app.config['MYSQL_DB'] = 'hyperapp'
 
-mysql = MySQL(app)
+hyperapp = MySQL(app)
 
 model = pickle.load(open('model.pkl', 'rb'))
 
