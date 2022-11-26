@@ -50,7 +50,6 @@ python-dateutil
 pytz==2022.6
 pywinpty==2.0.9
 pyzmq==24.0.1
-regex==2022.10.31
 scikit-learn 
 scipy==1.9.3
 Send2Trash==1.8.0
