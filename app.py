@@ -17,12 +17,13 @@ app = Flask(__name__)
 
 app.secret_key = 'yannimonamour'
 
-app.config['MYSQL_HOST'] = 'postgres://gmljqdkzrzwkvl:ea19abd7b36e9b3543e3a617b96d0b334780559ef1e276847981bb0cbf3e056a@ec2-34-201-95-176.compute-1.amazonaws.com:5432/d4b4qts2i5bb5r'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Mis2013#'
-app.config['MYSQL_DB'] = 'hyperapp'
+app.config['MYSQL_HOST'] = 'us-cdbr-east-06.cleardb.net'
+app.config['MYSQL_USER'] = 'b1fa1264caeb4d'
+app.config['MYSQL_PASSWORD'] = 'cb4510e7'
+app.config['MYSQL_DB'] = 'heroku_7377e6deb358442'
+mysql.init_app(app)
 
-hyperapp = MySQL(app)
+mysql = MySQL(app)
 
 model = pickle.load(open('model.pkl', 'rb'))
 
