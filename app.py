@@ -23,7 +23,6 @@ app.config['MYSQL_PASSWORD'] = 'cb4510e7'
 app.config['MYSQL_DB'] = 'heroku_7377e6deb358442'
 
 mysql = MySQL(app)
-mysql.init_app(app)
 
 model = pickle.load(open('model.pkl', 'rb'))
 
