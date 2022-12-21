@@ -8,8 +8,7 @@ The dataset  used to deploy the machine learning model is a response to a survey
 
 
 
-![image](https://user-images.githubusercontent.com/112989411/208799916-4d775dbc-b842-4148-9626-d168c66b31d1.png)
-![image](https://user-images.githubusercontent.com/112989411/208800070-a3ef28e0-2eb6-47c9-89b5-6d6ad7935232.png)
+
 
 ![image](https://user-images.githubusercontent.com/112989411/208800183-96176160-94f4-413f-bf44-10dc3dd25f8a.png)
 
@@ -18,7 +17,8 @@ The dataset  used to deploy the machine learning model is a response to a survey
 
 
 
-Hypertension counts by age group					Hypertension counts by sex
+Hypertension counts by age group					
+
 After cleaning the data, the non-modifiable data  such as age has been coded by group 0f 5 except for the first group: 18- 24 =1,  25-29=2, ……..., 75-79=12 and 80+=13, sex is defined as Male=M and Female=F, the anthropometric dta such as Body mass index(BMI) =weight(Kg)/Height(m2) and the modifiable data about life style and eating habit ar e some Yes or No question
 Smoker is defined as any on who smoke 100 cigarettes or 5 packs in his entire life, physical activity is related how active a person is in the las 30 days excluding his job, fruit is a question about how often you consume fruits, anyone who consume fruits1 or more time a day should answer yes the same criteria for veggies. About alcohol, according to CDC if you are a Male and you have more than 2 drink a day you should answer yes. If you are a female and you have more than 1 drink a day you can answer yes
 Result
