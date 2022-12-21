@@ -9,7 +9,9 @@ The dataset  used to deploy the machine learning model is a response to a survey
 
 
 ![image](https://user-images.githubusercontent.com/112989411/208799916-4d775dbc-b842-4148-9626-d168c66b31d1.png)
+![image](https://user-images.githubusercontent.com/112989411/208800070-a3ef28e0-2eb6-47c9-89b5-6d6ad7935232.png)
 
+![image](https://user-images.githubusercontent.com/112989411/208800183-96176160-94f4-413f-bf44-10dc3dd25f8a.png)
 
 
 
